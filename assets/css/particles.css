@@ -17,7 +17,7 @@
   position: absolute;
   width: 100%;
   height: 100%;
-  background: radial-gradient(#01061f1a, black);
+  background: (#ffffff00, black);
 }
 
 .title-container {
@@ -48,7 +48,7 @@ a {
 hr.hr {
   margin: 0 auto;
   width: 50%;
-  border: 1px solid #1e8284;
+  border: 1px solid #01061f1a;
 }
 
 @media (min-width: 600px) {
@@ -110,7 +110,7 @@ hr.hr {
 a.btn {
   text-decoration: none;
   color: white;
-  background: #1e8284;
+  background: #01061f1a;
   font-family: "Josefin Sans", sans-serif;
   font-size: 2rem;
   text-align: center;
@@ -122,7 +122,7 @@ a.btn {
   margin: 0 auto;
   box-sizing: border-box;
   border-radius: 4px;
-  border: 1px solid #1e8284;
+  border: 1px solid #01061f1a;
 }
 
 a.btn::before {
@@ -132,7 +132,7 @@ a.btn::before {
   background-position: center center;
   background-repeat: no-repeat;
   font-family: "Josefin Sans", sans-serif;
-  color: #1e8284;
+  color: #01061f1a;
   position: absolute;
   display: block;
   width: 200px;
@@ -144,7 +144,7 @@ a.btn::before {
 }
 
 a.btn:hover {
-  color: #1e8284;
+  color: #01061f1a;
   background: transparent;
 }
 
