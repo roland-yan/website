@@ -81,6 +81,8 @@ svg,img { max-width: 100%; height: auto; }
 .ds-experience-section{ padding-bottom: 120px; }
 .ds-experience-list section{ padding-right: 70px; }
 .ds-experience-list{ padding-top: 15px; }
+/* Add a bit more vertical breathing room between experience cards */
+.ds-experience-list .col-12{ margin-bottom: 60px; }
 .ds-officename{ color: #373737; font-size: 24px; font-weight: 300; margin-bottom:10px; }
 .ds-experience-list span{ display: block; }
 span.ds-year{ color: #373737; font-size: 14px; font-weight: 700; padding-bottom: 10px; }
@@ -93,7 +95,7 @@ span.ds-department{ color: #373737; font-weight: 500; font-size: 18px; padding-b
   6. >>> Work Style
 ----------------------------------------------------------------*/
 .ds-work-section{ padding-bottom: 80px; }
-.ds-work-list{ padding-left: 70px; padding-top:40px; padding-right: 70px; background-color:#F6F8FA; margin-bottom: 40px; }
+.ds-work-list{ padding-left: 70px; padding-top:40px; padding-bottom:40px; padding-right: 70px; background-color:#F6F8FA; margin-bottom: 40px; }
 .ds-work-list section{ padding-top: 20px; padding-right: 120px; }
 .ds-work-tilte{ color: #000; font-size: 30px; line-height: 36px; font-weight: 600; margin-bottom: 30px; }
 .ds-work-list p{ font-weight: 300; font-size: 18px; line-height: 30px; }
@@ -207,4 +209,24 @@ span.ds-department{ color: #373737; font-weight: 500; font-size: 18px; padding-b
 	.ds-work-list section{ padding-right: 30px; padding-bottom:60px; }
 
 
+}
+
+
+
+
+/* DNA logo mark */
+.ds-logo .ds-logo-mark{
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  width:40px;
+  height:40px;
+  border-radius:12px; /* rounded square */
+  overflow:hidden;
+}
+.ds-logo .ds-logo-mark img{
+  width:100%;
+  height:100%;
+  object-fit:cover;
+  display:block;
 }

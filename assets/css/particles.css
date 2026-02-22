@@ -18,6 +18,10 @@
   width: 100%;
   height: 100%;
   background: (#ffffff00, black);
+  /* Keep particles above the hero content (including the headshot),
+     but don’t block clicks on links/buttons. */
+  z-index: 1;
+  pointer-events: none;
 }
 
 .title-container {
